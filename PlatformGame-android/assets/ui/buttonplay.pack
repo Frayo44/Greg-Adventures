@@ -1,0 +1,19 @@
+
+buttonplay.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button.down
+  rotate: false
+  xy: 1, 1
+  size: 220, 73
+  orig: 220, 73
+  offset: 0, 0
+  index: -1
+button.up
+  rotate: false
+  xy: 223, 1
+  size: 220, 73
+  orig: 220, 73
+  offset: 0, 0
+  index: -1

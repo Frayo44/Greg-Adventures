@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset2" tilewidth="32" tileheight="32">
+  <image source="tileset2.png" width="367" height="187"/>
+ </tileset>
+ <tileset firstgid="56" name="gameart" tilewidth="32" tileheight="32">
+  <image source="gameart.png" width="664" height="328"/>
+ </tileset>
+ <layer name="red" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztku0KwyAMRYVuXfunH9ve/1mXgIEgFpQLOuk9cKEN2ppj1kAQvr0PMDj0h0F/GPSHQX8Y9IdBfxj0h0F/GPSHQX8Y9Icxgr9J8pC8JItkjbWnZHa1HvyrP3OmXo6C9b36aPlfc2Jzo7GZ8s+lzjx38LcVrjvCWP7SufBzUMN0sce+X+qk1p2R62GJz2kd6dOj/nQu9njuU/KWfEL9nW4Xe0rnbkS0X3OXc+jvKXe/uVr6fjbrpj0/Qa0E/A==
+  </data>
+ </layer>
+ <layer name="noncollision" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlLluAjEQhl0QoEq4OqDMAe/fQJNABUjQ5KgSpNBwvAKH+C1hMfzyAot210KaT/q0vla2R54xRlEURVEURVEURbmGd/gBe4HPwTzDF/gK32Arxlg7w3N+wi/4neGe98oADuFIjM3hAi6DnOi++IV/cCrG1nADt0FOFAbfOzo3/gifYAVWYQmWD333DU2WdcT3jnjcxqxkTmPl2nXYoPlzdGA3obNHIetIP8V97Dtyd3ZxqVK7Zk7jZmPVNMe4ye818RvDScL3YGQd+UlxH3tXd+eGaMt42fi5GDVprkJ9GcMcfIB5WIDFw57/cJbinZgV9aPqUhzku+Oc5Dyt0VqZr77/yxfmeJ1vbZLsqB9Vr+LAdetS/DhXffkbldM8x+t8a29lD7AAPM8=
+  </data>
+ </layer>
+ <objectgroup name="crystals" width="80" height="20">
+  <object x="696" y="545" width="27" height="20">
+   <ellipse/>
+  </object>
+  <object x="733" y="543" width="27" height="22">
+   <ellipse/>
+  </object>
+  <object x="770" y="542" width="25" height="21">
+   <ellipse/>
+  </object>
+  <object x="1187" y="417" width="21" height="25">
+   <ellipse/>
+  </object>
+  <object x="1230" y="412" width="17" height="19">
+   <ellipse/>
+  </object>
+  <object x="1261" y="415" width="17" height="15">
+   <ellipse/>
+  </object>
+  <object x="1290" y="412" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object x="805" y="516" width="24" height="16">
+   <ellipse/>
+  </object>
+  <object x="838" y="514" width="16" height="17">
+   <ellipse/>
+  </object>
+  <object x="610" y="498" width="22" height="21">
+   <ellipse/>
+  </object>
+  <object x="643" y="500" width="22" height="21">
+   <ellipse/>
+  </object>
+  <object x="223" y="497" width="25" height="20">
+   <ellipse/>
+  </object>
+  <object x="192" y="497" width="16" height="20">
+   <ellipse/>
+  </object>
+  <object x="1681" y="511">
+   <ellipse/>
+  </object>
+  <object x="1731" y="510">
+   <ellipse/>
+  </object>
+  <object x="1780" y="511">
+   <ellipse/>
+  </object>
+  <object x="1831" y="507">
+   <ellipse/>
+  </object>
+  <object x="1884" y="506">
+   <ellipse/>
+  </object>
+  <object x="1345" y="387">
+   <ellipse/>
+  </object>
+  <object x="1415" y="386">
+   <ellipse/>
+  </object>
+  <object x="1473" y="384">
+   <ellipse/>
+  </object>
+  <object x="1526" y="387">
+   <ellipse/>
+  </object>
+  <object x="1573" y="384">
+   <ellipse/>
+  </object>
+  <object x="1621" y="386">
+   <ellipse/>
+  </object>
+  <object x="888" y="448">
+   <ellipse/>
+  </object>
+  <object x="950" y="446">
+   <ellipse/>
+  </object>
+  <object x="1006" y="444">
+   <ellipse/>
+  </object>
+  <object x="1063" y="440">
+   <ellipse/>
+  </object>
+  <object x="1114" y="441">
+   <ellipse/>
+  </object>
+  <object x="1166" y="446">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="balls" width="80" height="20">
+  <object x="423" y="551" height="8"/>
+  <object x="425" y="585" width="1"/>
+  <object x="422" y="591"/>
+  <object x="382" y="586"/>
+  <object x="371" y="584"/>
+  <object x="350" y="584" height="1"/>
+  <object x="411" y="546"/>
+  <object x="456" y="567" width="2" height="14"/>
+  <object x="458" y="586"/>
+  <object x="426" y="539" width="1"/>
+  <object x="427" y="519" width="25" height="29"/>
+  <object x="429" y="448" width="25" height="26"/>
+  <object x="432" y="411" width="18" height="19"/>
+  <object x="460" y="494" width="18" height="16"/>
+ </objectgroup>
+ <objectgroup name="theend" width="80" height="20">
+  <object x="1996" y="342" width="97" height="159"/>
+ </objectgroup>
+ <objectgroup name="hearts" width="80" height="20"/>
+</map>

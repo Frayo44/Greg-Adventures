@@ -1,0 +1,19 @@
+
+jumpbutton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button.down
+  rotate: false
+  xy: 1, 1
+  size: 126, 121
+  orig: 126, 121
+  offset: 0, 0
+  index: -1
+button.up
+  rotate: false
+  xy: 129, 13
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
